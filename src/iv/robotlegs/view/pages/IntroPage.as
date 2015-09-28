@@ -14,7 +14,7 @@ public class IntroPage extends APage {
 		goToMain = new ApplicationButton();
 		addChild(goToMain);
 		goToMain.text = "Go To Main";
-		goToMain.action = GO_TO_MAIN;
+		goToMain.action = WENT_TO_MAIN;
 	}
 
 }

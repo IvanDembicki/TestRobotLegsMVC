@@ -5,7 +5,7 @@ import flash.events.Event;
 
 public class APage extends Sprite {
 
-	public static const GO_TO_MAIN:String = "goToMain";
+	public static const WENT_TO_MAIN:String = "wentToMain";
 	public static const GO_TO_INTRO:String = "goToIntro";
 	public static const SAVE_DATA:String = "saveData";
 

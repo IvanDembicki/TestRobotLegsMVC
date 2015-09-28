@@ -26,7 +26,7 @@ public class APageMediator extends Mediator {
 		//  это преднамеренная шняга, чтобы показать, якобы зачем нужен медиатор.
 		var eventName:String = "";
 		switch (event.action) {
-			case APage.GO_TO_MAIN:
+			case APage.WENT_TO_MAIN:
 				eventName = ApplicationEvent.OPEN_MAIN_PAGE;
 				break;
 			case APage.SAVE_DATA:
