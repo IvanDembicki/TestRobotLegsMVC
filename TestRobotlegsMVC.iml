@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="TestRobotlegsMVC">
+    <configurations>
+      <configuration name="TestRobotlegsMVC" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/TestRobotlegsMVC">
+        <dependencies target-player="17.0">
+          <entries>
+            <entry library-name="Flox-AS3" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="robotlegs-framework-v2.2.1" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="6d4a6c2b-3135-4211-8bec-0bd7438b4476">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Swiftsuspenders-v2.1.0" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_Compiler" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" package-file-name="Main" />
+        <packaging-ios enabled="true" package-file-name="Main" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6d4a6c2b-3135-4211-8bec-0bd7438b4476" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Swiftsuspenders-v2.1.0.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="Flox-AS3" level="project" />
+    <orderEntry type="library" exported="" name="robotlegs-framework-v2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Swiftsuspenders-v2.1.0" level="project" />
+  </component>
+</module>
+
